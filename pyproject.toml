@@ -1,0 +1,16 @@
+[project]
+name = "fission-matrix"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.3",
+    "openmc",
+    "openmc-plotter>=0.4.0",
+    "vtk>=9.4.2",
+]
+
+[tool.uv.sources]
+openmc = { path = "../openmc/openmc" }
