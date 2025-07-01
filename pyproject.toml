@@ -13,4 +13,4 @@ dependencies = [
 ]
 
 [tool.uv.sources]
-openmc = { path = "../openmc/openmc" }
+openmc = { path = "/home/nlinden/workspace/Software/openmc/" }
